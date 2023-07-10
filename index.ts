@@ -13,7 +13,7 @@ class BootLevel extends Phaser.Scene {
     // CHANGE BASE URL!!!!
     this.add.text(20, 20, 'Boot Sequence Initiated.');
     this.load.baseURL =
-      'https://neoalchemy.github.io/starting-boilerplate-phaser-zcqxxx/';
+      'https://sampow360.github.io/fireblast-engine/';
     this.load.bitmapFont({
       key: 'Oswald',
       textureURL: 'static/assets/font/OswaldLightRed.png',
