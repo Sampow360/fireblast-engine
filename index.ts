@@ -15,9 +15,9 @@ class BootLevel extends Phaser.Scene {
     this.load.baseURL =
       'https://sampow360.github.io/fireblast-engine/';
     this.load.bitmapFont({
-      key: 'Oswald',
-      textureURL: 'static/assets/font/OswaldLightRed.png',
-      fontDataURL: 'static/assets/font/OswaldLightRed.xml',
+      key: 'METALOVANIA',
+      textureURL: 'static/assets/font/METALOVANIA.png',
+      fontDataURL: 'static/assets/font/METALOVANIA.xml',
     });
     this.load.image('logo', 'static/assets/logoV3.png');
     this.load.image('splashscreen', 'static/assets/splashscreen.png');
@@ -41,9 +41,9 @@ class SplashLevel extends Phaser.Scene {
     logo.setScale(0.3);
     this.logo = logo;
 
-    const text1 = this.add.bitmapText(-300, 200, 'Oswald', 'NeoAlchemy', 32);
+    const text1 = this.add.bitmapText(-300, 200, 'METALOVANIA', 'NeoAlchemy', 32);
     this.companyLine1 = text1;
-    const text2 = this.add.bitmapText(-300, 230, 'Oswald', 'Indie Games', 32);
+    const text2 = this.add.bitmapText(-300, 230, 'METALOVANIA', 'Indie Games', 32);
     this.companyLine2 = text2;
 
     const loading = this.add.text(180, 300, ['Loading...'], {
