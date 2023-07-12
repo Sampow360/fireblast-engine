@@ -16,8 +16,8 @@ class BootLevel extends Phaser.Scene {
       'https://sampow360.github.io/fireblast-engine/';
     this.load.bitmapFont({
       key: 'METALOVANIA',
-      textureURL: 'static/assets/font/METALOVANIA.png',
-      fontDataURL: 'static/assets/font/METALOVANIA.xml',
+      textureURL: 'static/assets/font/METALOVANIA/METALOVANIA.png',
+      fontDataURL: 'static/assets/font/METALOVANIA/METALOVANIA.xml',
     });
     this.load.image('logo', 'static/assets/logoV3.png');
     this.load.image('splashscreen', 'static/assets/splashscreen.png');
