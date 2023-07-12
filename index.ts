@@ -38,12 +38,12 @@ class SplashLevel extends Phaser.Scene {
     const splashScreen = this.add.image(200, 200, 'splashscreen');
 
     const logo = this.add.image(200, 100, 'logo');
-    logo.setScale(0.3);
+    logo.setScale(0.5);
     this.logo = logo;
 
-    const text1 = this.add.bitmapText(-300, 200, 'METALOVANIA', 'NeoAlchemy', 32);
+    const text1 = this.add.bitmapText(-300, 200, 'METALOVANIA', 'Sam Drake', 32);
     this.companyLine1 = text1;
-    const text2 = this.add.bitmapText(-300, 230, 'METALOVANIA', 'Indie Games', 32);
+    const text2 = this.add.bitmapText(-300, 230, 'METALOVANIA', '  Studios', 32);
     this.companyLine2 = text2;
 
     const loading = this.add.text(180, 300, ['Loading...'], {
