@@ -20,7 +20,7 @@ class BootLevel extends Phaser.Scene {
       fontDataURL: 'static/assets/font/METALOVANIA/METALOVANIA.xml',
     });
     this.load.image('logo', 'static/assets/logoV3.png');
-    this.load.image('splashscreen', 'static/assets/splashscreen.png');
+    this.load.image('splashscreen', 'static/assets/splashscreenV2.png');
   }
 
   create() {
