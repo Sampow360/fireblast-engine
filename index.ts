@@ -49,7 +49,7 @@ class SplashLevel extends Phaser.Scene {
     const loading = this.add.text(180, 300, ['Loading...'], {
       fontFamily: 'Arial',
       fontSize: '12px',
-      color: 'black',
+      color: 'crimson',
       align: 'center',
     });
 
@@ -64,10 +64,10 @@ class SplashLevel extends Phaser.Scene {
   create() {
     this.tweens.add({
       targets: this.logo, //your image that must spin
-      rotation: 2 * Math.PI, //rotation value must be radian
+      rotation: 4 * Math.PI, //rotation value must be radian
       ease: 'Bounce',
       delay: 600,
-      duration: 600, //duration is in milliseconds
+      duration: 1200, //duration is in milliseconds
     });
 
     this.tweens.add({
