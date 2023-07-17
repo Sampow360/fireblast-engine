@@ -20,7 +20,7 @@ class BootLevel extends Phaser.Scene {
       fontDataURL: 'static/assets/font/METALOVANIA/METALOVANIA.xml',
     });
     this.load.image('logo', 'static/assets/logoV3.png');
-    this.load.image('splashscreen', 'static/assets/splashscreenV2.png');
+    this.load.image('splashscreen', 'static/assets/SplashscreenV2.png');
   }
 
   create() {
@@ -36,6 +36,7 @@ class SplashLevel extends Phaser.Scene {
 
   preload() {
     const splashScreen = this.add.image(200, 200, 'splashscreen');
+    splashScreen.setScale(2);
 
     const logo = this.add.image(200, 100, 'logo');
     logo.setScale(0.5);
